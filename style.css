@@ -1,0 +1,199 @@
+body {
+    background-color: #EEF0F2;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+header img {
+    width: 225px;
+    height: 148px;
+    margin-top: -25px;
+    margin-left: -15px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 39px;
+    margin-top: -98px;
+    width:686px;
+    margin-left: 244px;
+
+}
+
+header nav a {
+    color: #000;
+    text-decoration: unset;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+header .search-container input[type=text] {
+    background:linear-gradient(270deg, #f4f4f4 10%, rgba(255, 255, 255, 0.884) 90%);
+    width: 276px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    left:1100px;
+    top: 31px;
+    border: #ffffff 1px solid;
+    z-index: -1;
+    box-shadow: 15px 15px 13px rgba(0, 0, 0, 0.25);
+}
+
+::placeholder {
+    color: #9F9F9F;
+    position: absolute;
+    top: 18px;
+    bottom: 8px;
+    left: 43px;
+    font-size: 15px;
+}
+
+
+header .search-container form i {
+    color: #9F9F9F;
+    position: absolute;
+    top: 47px;
+    right: 180px;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+header .cart-container a {
+    color: #000000;
+    position: absolute;
+    top: 50px;
+    right: 55px;
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration: unset;
+}
+
+main .circle-container {
+    background: linear-gradient(299.35deg, #F35841 13.89%, rgba(238, 109, 90, 0.9) 85.55%);
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 543px;
+    top: 184px;
+    bottom: 247px;
+    border-radius: 50%;
+    box-shadow: 30px 20px 40px #E79C8A;
+}
+
+main .shoe-bottom {
+    position: absolute;
+    width: 413px;
+    height: 413px;
+    left: 449px;
+    top: 110px;
+    bottom: 247px;
+}
+
+main .OZWEEGO {
+    position: absolute;
+    color: #FF996C;
+    font-size: 195px;
+    left: 362px;
+    top: 87px;
+    text-shadow: 3px 6px 10px #DE3500;
+}
+
+main .shoe-top {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 520px;
+    top: 80px;
+}
+
+main .shadow-container {
+    position: absolute;
+    width: 343px;
+    height: 302px;
+    left: 621px;
+    top: 268px;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 50%;
+    filter: blur(55px);
+}
+
+
+
+
+main .left-right-botton .rectangle{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 365px;
+    background: linear-gradient(311.83deg, #E7E9ED 0.12%, rgba(255, 255, 255, 0.85) 84.25%);
+    border-radius: 22px;
+}
+
+.left {
+    left: 73px;
+    box-shadow: -15px 9px 25px rgba(157, 157, 157, 0.5);
+}
+
+.left i {
+    position: absolute;
+    width: 14px;
+    height: 22px;
+    left: 20px;
+    top: 5px;
+    font-size: 45px;
+    color: #AFAFAF;
+}
+
+.right {
+    left: 1399px;
+    box-shadow: 15px 9px 25px rgba(157, 157, 157, 0.5);
+}
+
+.right i {
+    position: absolute;
+    width: 14px;
+    height: 22px;
+    left: 25px;
+    top: 5px;
+    font-size: 45px;
+    color: #AFAFAF;
+}
+
+footer button {
+    position: absolute;
+    width: 204px;
+    height: 61px;
+    background: linear-gradient(96.07deg, #DE3500 0%, rgba(220, 92, 52, 0.88) 100%);
+    box-shadow: 20px 10px 20px 2px rgba(252, 59, 0, 0.529);
+    border-radius: 10px;
+    left: 95px;
+    top: 600px;
+    border: none;
+    font-size: 28px;
+}
+
+footer .image-container {
+    position: absolute;
+    width: 198px;
+    height: 150px;
+    top: 540px;
+    left: 1269px;
+    border-radius: 29px;
+    background: linear-gradient(119.93deg, #E17766 0%, #E42E11 100%);
+    box-shadow: 20px 10px 20px 2px rgba(252, 59, 0, 0.529);
+}
+
+footer .image-container img {
+    position: absolute;
+    width: 303px;
+    height: 150px;
+    left: -86px;
+    top: -13px;
+}
